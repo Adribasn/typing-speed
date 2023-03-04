@@ -48,7 +48,7 @@ class App(ctk.CTk):
         self.resetButton.grid(row=0, column=0, padx=20, pady=20, sticky='nw')
 
         self.statsFrame = ctk.CTkFrame(master=self, fg_color='transparent')
-        self.statsFrame.grid(row=1, column=0, pady=(100, 50))
+        self.statsFrame.grid(row=1, column=0, pady=(120, 50))
 
         self.statsFrame.grid_rowconfigure(0, weight=0)
         self.statsFrame.grid_columnconfigure((0, 4), weight=1)
